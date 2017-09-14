@@ -1,7 +1,7 @@
-*{
+/* *{
 	outline: 1px solid black;
-}
-body *{
+} */
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -107,8 +107,7 @@ nav .collapse li{
       align-content: center;
     }
     #conduce .sombra{
-      /*background-color: rgba(0, 0, 0, 0.5);
-      padding-top: 80px;*/
+    /*efecto sombra*/
       padding: 80px 20px 80px 20px;
     }
     #tarifa button{
@@ -117,7 +116,7 @@ nav .collapse li{
     }
 /*seccion de conduce*/
 #conduce{
-  background-image: url(../img/conduce.jpg);
+  background-image: url(..assets/img/conduce.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -142,9 +141,9 @@ nav .collapse li{
   margin-left: 40%;
   font-weight: bold;
 }
-#tarifa form input:active, #tarifa form input:focus, #tarifa form input:hover, #tarifa form input:visited{
+/* #tarifa form input:active, #tarifa form input:focus, #tarifa form input:hover, #tarifa form input:visited{
   box-shadow: none;
-}
+} */
 #map{
   width: 100%;
   height: 300px;
@@ -158,12 +157,12 @@ nav .collapse li{
   height: 322px;
 }
 /*FOOTER SECTION*/
-.border-bottom-1{
+/*.border-bottom-1{
   border-bottom: 1px solid white;
-}
+}*/
 footer ul li a{
   color: white;
-  background-color: red;/*XD*/
+  
 }
 .redes-sociales{
   padding-top: 300px;
