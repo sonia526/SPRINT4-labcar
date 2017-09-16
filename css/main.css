@@ -1,6 +1,19 @@
 /* *{
 	outline: 1px solid black;
 } */
+/* lo de abajito es de la umagen de fondo q me paso bertis */
+/* #seccion3{
+   height: 70vh;
+   width: 100%;
+   background-image: url("../img/conduce.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center ;
+   height:92vh;
+   font-family: 'Raleway', sans-serif;
+   color: #FFF;
+
+} */
 *{
   margin: 0;
   padding: 0;
@@ -52,7 +65,7 @@ nav .collapse li{
 /*HERO SECTION*/
 
 #hero {
-  background-image: url(../img/taxi.jpg);
+  background-image: url(../assets/img/taxi.jpg);
   background-size:cover;
   background-position: 100% 93%;/*horizontal vertical*/
   background-repeat: no-repeat;
@@ -116,7 +129,7 @@ nav .collapse li{
     }
 /*seccion de conduce*/
 #conduce{
-  background-image: url(..assets/img/conduce.jpg);
+  background-image: url(../assets/img/conduce.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -157,9 +170,9 @@ nav .collapse li{
   height: 322px;
 }
 /*FOOTER SECTION*/
-/*.border-bottom-1{
+.border-bottom-1{
   border-bottom: 1px solid white;
-}*/
+}
 footer ul li a{
   color: white;
   
